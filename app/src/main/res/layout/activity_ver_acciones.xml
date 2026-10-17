@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ver_acciones"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvusuacciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1B263B"
+        android:gravity="center"
+        android:paddingTop="14dp"
+        android:paddingBottom="14dp"
+        android:text="Nombre Usuario"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Ver Acciones"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ivlistado"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:layout_marginBottom="30dp"
+        android:adjustViewBounds="false"
+        android:background="@drawable/acciones"
+        android:scaleType="matrix"
+        android:src="@drawable/fotolistado" />
+
+    <Button
+        android:id="@+id/btnvolacc"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#8B0000"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="Volver"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

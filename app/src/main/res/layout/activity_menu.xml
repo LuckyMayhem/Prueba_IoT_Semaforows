@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/semaforo2"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvusumenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:backgroundTint="#000000"
+        android:gravity="center"
+        android:paddingTop="14dp"
+        android:paddingBottom="14dp"
+        android:text="Nombre Usuario"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        android:text="Menu"
+        android:textColor="@android:color/black"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="14dp"
+        android:backgroundTint="#A22121"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="Manipular Semaforo"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="14dp"
+        android:backgroundTint="#D1A734"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="Ver Acciones Realizadas"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="14dp"
+        android:backgroundTint="#4CAF50"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="Ver Estadísticas"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#4478BC"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="Ver Perfil"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#8B0000"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="Cerrar Sesión"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

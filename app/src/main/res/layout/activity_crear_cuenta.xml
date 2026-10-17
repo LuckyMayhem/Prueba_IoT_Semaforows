@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/semaforo2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="Crear Cuenta"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtrut_reg"
+            android:layout_width="320dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="12dp"
+            android:background="@android:color/white"
+            android:backgroundTint="#F4E264"
+            android:gravity="center"
+            android:hint="Rut"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:textColorHint="#281313" />
+
+        <!-- Fila horizontal: Nombre y Apellido -->
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="12dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/txtnom_reg"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="6dp"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:backgroundTint="#F4E264"
+                android:gravity="center"
+                android:hint="Nombre"
+                android:inputType="textPersonName"
+                android:textColor="#000000"
+                android:textColorHint="#281313" />
+
+            <EditText
+                android:id="@+id/txtape_reg"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="6dp"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:backgroundTint="#F4E264"
+                android:gravity="center"
+                android:hint="Apellido"
+                android:inputType="textPersonName"
+                android:textColor="#000000"
+                android:textColorHint="#281313" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/txtema_reg"
+            android:layout_width="320dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="12dp"
+            android:background="@android:color/white"
+            android:backgroundTint="#F4E264"
+            android:gravity="center"
+            android:hint="Correo Electrónico"
+            android:inputType="textEmailAddress"
+            android:textColor="#000000"
+            android:textColorHint="#281313" />
+
+        <!-- Menú desplegable de Cargo / Ocupación -->
+        <Spinner
+            android:id="@+id/spncargo_reg"
+            android:layout_width="320dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="12dp"
+            android:background="@android:color/white"
+            android:backgroundTint="#F4E264"
+            android:entries="@array/cargos_array"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp" />
+
+        <EditText
+            android:id="@+id/txtcon_reg"
+            android:layout_width="320dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="12dp"
+            android:background="@android:color/white"
+            android:backgroundTint="#F4E264"
+            android:gravity="center"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:textColor="#000000"
+            android:textColorHint="#281313" />
+
+        <EditText
+            android:id="@+id/txtcon2_reg"
+            android:layout_width="320dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="20dp"
+            android:background="@android:color/white"
+            android:backgroundTint="#F4E264"
+            android:gravity="center"
+            android:hint="Repetir Contraseña"
+            android:inputType="textPassword"
+            android:textColor="#000000"
+            android:textColorHint="#281313" />
+
+        <Button
+            android:id="@+id/btcrear"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:backgroundTint="#60CA6C"
+            android:text="Crear Cuenta"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btvolver"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#D93838"
+            android:text="Cancelar"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>

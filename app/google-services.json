@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "652834393750",
+    "project_id": "appsemaforo-bf9a0",
+    "storage_bucket": "appsemaforo-bf9a0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652834393750:android:2db7c1b1a5f799a1497cb7",
+        "android_client_info": {
+          "package_name": "com.example.prueba_iot_semaforo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtfmhDR-q5WMGQX68YKXQNm8Fsif-Cxls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
